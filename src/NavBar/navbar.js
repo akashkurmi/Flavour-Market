@@ -25,19 +25,27 @@ class NavigationBar extends Component{
 <Navbar bg="light" expand="sm"  sticky="top" id="NavBarEle">
   <Navbar.Brand href="#home" className="LinkEle"><img src='./images/LOGO.png' alt=""  height="50%" width="50%" ></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <pre>                    </pre>
+
+                <Navbar.Collapse id="basic-navbar-nav">
+
     <Form inline>
+      <NavDropdown title="All" id="searchbar">
+     <NavDropdown.Item href="#" >spices</NavDropdown.Item>
+     <NavDropdown.Item href="#">harbs</NavDropdown.Item>
+     <NavDropdown.Item href="#">grains</NavDropdown.Item>
+     <NavDropdown.Item href="#">others</NavDropdown.Item>
+   </NavDropdown>
     <FormControl type="text" id="searchbox" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-success" id="searchbutton"><i class="fa fa-search"></i>  </Button> 
     </Form>
-
-    <pre>                       </pre>
+  
+    
+    </ Navbar.Collapse >
     <Link to="/Checkout">
     <img src="images/cart.png" alt="6758011_preview.png" width="40px" height="40px"></img>
       <p style={{backgroundColor:"red", color:"white",borderRadius:"30%"}}>{this.props.cart }</p>
       </Link>
-    </Navbar.Collapse>
+      
     {this.props.UserName?
      <div>
       <br></br>

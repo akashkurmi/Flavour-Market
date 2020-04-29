@@ -16,13 +16,23 @@
 }
 
 
+ #searchbar{
+      /* border-radius:400px; */
+      background-color: blue;
+      color:white ;
+      border-color: black;
+      outline-color: none;
+  }
+
+
+
 
 #searchbox {
     width: 80%;
-    border-radius: 400px;
+    /* border-radius: 400px; */
   } 
   #searchbutton{
-      border-radius:400px;
+      /* border-radius:400px; */
       background-color: blue;
       color:white ;
       border-color: none;
