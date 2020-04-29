@@ -23,7 +23,11 @@ class NavigationBar extends Component{
           <body>
           <div>
 <Navbar bg="light" expand="sm"  sticky="top" id="NavBarEle">
+<<<<<<< HEAD
   <Navbar.Brand href="#home" className="LinkEle"><img src='./images/LOGO.png'  height="50%" width="50%" ></img></Navbar.Brand>
+=======
+  <Navbar.Brand href="#home" className="LinkEle"><img src='./images/LOGO.png' alt=""  height="50%" width="50%" ></img></Navbar.Brand>
+>>>>>>> upstream/master
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <pre>                    </pre>
