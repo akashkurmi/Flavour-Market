@@ -1,0 +1,35 @@
+.header{
+    background-image: url("/images/header-background-png-2.png" ) ;
+    background-size: "cover";
+    height: 100px;
+}
+
+
+#selectionbar{
+    background-color: rgb(10, 143, 231);
+    color: white;
+}
+
+.center
+{
+    align-content: center;
+}
+
+.searchbox{
+    width: 120%;
+}
+.searchbar{
+    display: inline;
+}
+
+.statusbar{
+    display: inline;
+}
+
+#numberofitem
+{
+    width: 30%;
+    background-color: red;
+    color: white;
+    border-radius: 30%;
+}

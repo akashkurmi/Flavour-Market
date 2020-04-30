@@ -1,8 +1,11 @@
 import React, { Component, lazy, Suspense } from 'react';
 import './App.css';
-import  NavigationBar from './NavBar/navbar'
+import Header from './header/header';
+import  NavigationBar from './NavBar/navbar';
+
 import {Row,Col,Container} from 'react-bootstrap';
 import {Route,Switch} from 'react-router-dom';
+
 import Footer from './footer/footer';
 import Modal from './UI_element/Modal/Modal';
 import AUI from './UI_element/AUI/AUI';
@@ -62,6 +65,9 @@ class App extends Component {
   return (
     <div className="App">
       <Container  >
+      <Container>
+      <Header Login={this.LoginHandler} SignUp={this.SignUpHandler}></Header>
+      </Container>
 
       <Container>
       <NavigationBar Login={this.LoginHandler} SignUp={this.SignUpHandler}></NavigationBar>
