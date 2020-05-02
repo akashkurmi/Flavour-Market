@@ -28,7 +28,7 @@ class Header extends Component {
                             <div class="col-sm-6 center" >
 
                                 <Form inline>
-                                    <pre>       </pre>
+                                    <pre>   </pre>
                                    
                                     <Form.Group controlId="exampleForm.ControlInput1">
                                     <Form.Control as="select" id="selectionbar">
@@ -57,8 +57,8 @@ class Header extends Component {
                                         </span>
                                         :
                                         <span>
-                                            <Button variant="outline-info" onClick={this.props.Login}>Login</Button>
-                                            <Button variant="outline-danger" onClick={this.props.SignUp}>SignUp</Button>
+                                            <Button id="Loginbutton" variant="outline-info" onClick={this.props.Login}>Login</Button>
+                                            <Button id="Signupbutton" variant="outline-danger" onClick={this.props.SignUp}>SignUp</Button>
                                         </span>
                                     }
                                 </div>

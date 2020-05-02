@@ -33,3 +33,14 @@
     color: white;
     border-radius: 30%;
 }
+
+#Loginbutton
+{
+    background-color:rgb(10, 143, 231)  ;
+    color:white
+}
+#Signupbutton
+{
+    background-color: red;
+    color:white;
+}
