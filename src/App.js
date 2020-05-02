@@ -70,7 +70,7 @@ class App extends Component {
           </Container>
 
           <Container>
-            <NavigationBar Login={this.LoginHandler} SignUp={this.SignUpHandler}></NavigationBar>
+            <NavigationBar ></NavigationBar>
           </Container>
 
           <AUI flag={this.props.UserName} >

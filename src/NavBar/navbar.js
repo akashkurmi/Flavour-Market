@@ -2,23 +2,12 @@ import React, { Component } from 'react';
 import { Nav, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './navbar.css'
-import { connect } from 'react-redux';
 class NavigationBar extends Component {
-  state = {
-    UserName: null,
-    PassWord: null
-  }
-
   render() {
-    console.log(this.props.cart + "-------------")
     return (
 
       <html>
         <head>
-          <title>
-
-          </title>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         </head>
         <body>
           <div>
@@ -42,22 +31,4 @@ class NavigationBar extends Component {
       </html>)
   }
 }
-const StateHandler = (state) => {
-  // console.log("SteteHandler"+state.UserName)
-  return {
-    UserName: state.UserName,
-    cart: state.cart
-    // Password:state.PassWord
-  }
-}
-
-
-const ActionHandler = (action) => {
-  return {
-    User: (event) => {
-      action({ type: event })
-    }
-
-  }
-}
-export default connect(StateHandler, ActionHandler)(NavigationBar);
+export default NavigationBar;
