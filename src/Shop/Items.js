@@ -9,12 +9,19 @@ class Items extends Component {
     }
     componentDidMount(){
         // console.log("once")
-        axios.get("http://localhost:3001/posts").then(res=>{
-        this.setState({
-            posts:res.data,
+        fetch('../../db.json').then(response => response.json())
+        .then(data => {console.log(data)
+            this.setState({
+              posts:data.posts
+            })
+        });
+        // console.log();
+    //     axios.get("http://localhost:3001/posts").then(res=>{
+    //     this.setState({
+    //         posts:res.data,
            
-        })    
-    })  
+    //     })    
+    // })  
     }
     
     // componentDidUpdate=()=>{
@@ -31,7 +38,9 @@ class Items extends Component {
       
         return (
             <div>
-                <h1>shop element :{this.props.match.params.id } </h1>
+                <br></br>
+                <br></br>
+                {/* <h1>shop element :{this.props.match.params.id } </h1> */}
                 {/* {this.state.posts.map(p=>{
                     return(
                         <div>

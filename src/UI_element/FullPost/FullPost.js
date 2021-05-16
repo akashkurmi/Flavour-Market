@@ -29,11 +29,12 @@ class FullPost extends Component {
    }
 
     componentDidMount=()=>{
-        axios.get("http://localhost:3001/posts").then(response=>{
+        // axios.get("http://localhost:3001/posts").
+        fetch('../../db.json').then(response => response.json()).then(response=>{
             // console.log(this.props.match.params.id)
             // console.log(response.data.find(r=>r.id===parseInt(this.props.match.params.id)));    
             this.setState({
-                post:response.data.find(r=>r.id===parseInt(this.props.match.params.id))
+                post:response.posts.find(r=>r.id===parseInt(this.props.match.params.id))
             })
         })
     }
