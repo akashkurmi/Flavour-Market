@@ -42,11 +42,14 @@ class FullPost extends Component {
         console.log(this.state.post);
         return (
             <div>
+                <br></br>
+                <br></br>
+                <br></br>
                 <Container>
                     <Row>
                     <Col sm={6}>
-                            <h1>this is 1st block</h1>
-                            <img src={"/images/"+this.state.post.source } alt={this.state.post.source} width="300px" height="300px"></img>
+                            {/* <h1>this is 1st block</h1> */}
+                            <img src={this.state.post.source } alt={this.state.post.source} width="300px" height="300px"></img>
                         </Col>
                         <Col sm={6}>
                         {/* <h1>{this.state.post.Product}</h1>
@@ -86,9 +89,13 @@ class FullPost extends Component {
                                 </tr>
                             </table>
                         </Col>
+                    </Row>
+                        <br></br>
                         <Button className="btn btn-success" onClick={this.cartHandler}>Add to cart</Button>
                         <Button className="btn btn-dark" onClick={this.BuyHandler}>Buy now</Button>
-                    </Row>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </Container>
 
             </div>

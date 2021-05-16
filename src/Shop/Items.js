@@ -39,7 +39,6 @@ class Items extends Component {
         return (
             <div>
                 <br></br>
-                <br></br>
                 {/* <h1>shop element :{this.props.match.params.id } </h1> */}
                 {/* {this.state.posts.map(p=>{
                     return(

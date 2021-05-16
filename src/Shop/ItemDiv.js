@@ -27,7 +27,7 @@ class ItemDiv extends Component {
                                     <h5>{p.MRP}$</h5>
                                   </div> */}
                                   <Card className="CardDiv" style={{width:'18rem'}}>
-            <Card.Img className="ImageDiv" variant="top" src={"/images/"+p.source} />
+            <Card.Img className="ImageDiv" variant="top" src={p.source} />
             <Card.Body>
               <Card.Title style={{height:"10px"}}>
                 <Link className="Link" to={"/FullPage/"+p.id} key={p.id}>

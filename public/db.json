@@ -13,7 +13,7 @@
       "Product": "CLOVES",
       "Type": "SPICES",
       "Discount": "5%",
-      "source": "51262045_1103341223171975_1322785790169942848_n.jpg"
+      "source": "https://5.imimg.com/data5/NU/LX/SF/SELLER-46440538/dry-cloves-spice-500x500.jpeg"
     },
     {
       "id": 2,
@@ -43,7 +43,7 @@
       "Product": "CORIANDER",
       "Type": "SPICES",
       "Discount": "12%",
-      "source": "93d11479cf5cbd4395396a10d00e6b78.jpg"
+      "source": ""
     },
     {
       "id": 4,
@@ -57,7 +57,8 @@
       "MFD": "March 2020",
       "Product": "MUSTARD",
       "Type": "SPICES",
-      "Discount": "18%"
+      "Discount": "18%",
+      "source":""
     },
     {
       "id": 5,
@@ -71,7 +72,8 @@
       "MFD": "March 2020",
       "Product": "CARDAMOM",
       "Type": "SPICES",
-      "Discount": "0%"
+      "Discount": "0%",
+      "source":"https://images-na.ssl-images-amazon.com/images/I/71OFZ3vXuxL._AC_SL1116_.jpg"
     },
     {
       "id": 6,
@@ -85,7 +87,8 @@
       "MFD": "March 2020",
       "Product": "DRY-GINGER",
       "Type": "SPICES",
-      "Discount": "5"
+      "Discount": "5",
+      "source":""
     },
     {
       "id": 7,
@@ -99,7 +102,8 @@
       "MFD": "March 2020",
       "Product": "FERNUGREEK",
       "Type": "SPICES",
-      "Discount": "20%"
+      "Discount": "20%",
+      "source":""
     },
     {
       "id": 8,
@@ -113,7 +117,8 @@
       "MFD": "March 2020",
       "Product": "TURMERIC",
       "Type": "SPICES",
-      "Discount": "12%"
+      "Discount": "12%",
+      "source":""
     },
     {
       "id": 9,
@@ -127,7 +132,8 @@
       "MFD": "March 2020",
       "Product": "BLACK PEPPER",
       "Type": "SPICES",
-      "Discount": "18"
+      "Discount": "18",
+      "source":"http://zamindarkesar.com/wp-content/uploads/2021/03/black-pepper.jpg"
     },
     {
       "id": 10,
@@ -141,7 +147,8 @@
       "MFD": "March 2020",
       "Product": "WHITE-PEPPER",
       "Type": "SPICES",
-      "Discount": "0"
+      "Discount": "0",
+      "source":""
     },
     {
       "id": 11,
@@ -155,7 +162,8 @@
       "MFD": "March 2020",
       "Product": "CUMIN SEEDS",
       "Type": "SPICES",
-      "Discount": "5"
+      "Discount": "5",
+      "source":"https://sc01.alicdn.com/kf/U9593dbfe9a8142beb741f044f0da29ebS.jpg"
     },
     {
       "id": 12,
@@ -169,7 +177,8 @@
       "MFD": "March 2020",
       "Product": "FENNEL SEEDS",
       "Type": "SPICES",
-      "Discount": "56"
+      "Discount": "56",
+      "source":""
     },
     {
       "id": 13,
@@ -183,7 +192,8 @@
       "MFD": "March 2020",
       "Product": "CINNAMON",
       "Type": "SPICES",
-      "Discount": "12%"
+      "Discount": "12%",
+      "source":"https://www.endocrineweb.com/sites/default/files/lead-images/pro/Cinnamon.jpg"
     },
     {
       "id": 14,
@@ -197,7 +207,8 @@
       "MFD": "March 2020",
       "Product": "BAY LEAFS",
       "Type": "SPICES",
-      "Discount": "18"
+      "Discount": "18",
+      "source":""
     },
     {
       "id": 15,
@@ -211,7 +222,8 @@
       "MFD": "March 2020",
       "Product": "NUTMEG",
       "Type": "SPICES",
-      "Discount": "0%"
+      "Discount": "0%",
+      "source":"https://www.vippng.com/png/full/299-2992538_nutmeg-whole-avocado.png"
     },
     {
       "id": 16,
@@ -225,7 +237,8 @@
       "MFD": "March 2020",
       "Product": "KASURI METHI",
       "Type": "SPICES",
-      "Discount": "5"
+      "Discount": "5",
+      "source":""
     },
     {
       "id": 17,
@@ -239,7 +252,8 @@
       "MFD": "March 2020",
       "Product": "SHAHI JEERA",
       "Type": "SPICES",
-      "Discount": "45"
+      "Discount": "45",
+      "source":"https://5.imimg.com/data5/VY/TZ/RA/SELLER-3850026/shahi-jeera-500x500.jpg"
     },
     {
       "id": 18,
@@ -253,7 +267,84 @@
       "MFD": "March 2020",
       "Product": "CHILLY POWDER",
       "Type": "HERBS",
-      "Discount": "12"
+      "Discount": "12",
+      "source":""
+    }
+    
+  ],
+  "Types": [
+    "SPICES",
+    "HERBS",
+    "Seasonings",
+    "Extracts"
+  ],
+  "Categories": [
+    "Spices",
+    "Herbs",
+    "Seasonings",
+    "Extracts"
+  ],
+  "cart": [
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "id": 1
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "id": 2
+    },
+    {
+      "productId": 2,
+      "prouductName": "CLOVES",
+      "UserId": "AAKSH",
+      "id": 3
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "id": 4
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "UserId": "akashkurmi@gmail.com",
+      "id": 5
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "UserId": "akashkurmi@gmail.com",
+      "id": 6
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "UserId": "akashkurmi@gmail.com",
+      "id": 7
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "UserId": "akashkurmi@gmail.com",
+      "id": 8
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "UserId": "akashkurmi@gmail.com",
+      "id": 9
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "id": 10
+    },
+    {
+      "productId": 1,
+      "prouductName": "CLOVES",
+      "id": 11
     }
   ]
  
