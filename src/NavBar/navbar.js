@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, NavDropdown} from 'react-bootstrap';
+import { Nav, NavDropdown,Form, FormControl,Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './navbar.css'
 import { connect } from 'react-redux';
@@ -36,6 +36,20 @@ class NavigationBar extends Component {
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
               </NavDropdown>
             </Nav>
+            {/* <Form inline>
+                                    <pre>       </pre>
+                                   
+                                    <Form.Group controlId="exampleForm.ControlInput1">
+                                    <Form.Control as="select" id="selectionbar">
+                                        <option>SPICE</option>
+                                        <option>HARBS</option>
+                                        <option>GRAINS</option>
+                                        <option>OTHERS</option>
+                                    </Form.Control>
+                                        <FormControl type="text" id="searchbox" placeholder="Search" style={{ width: "300px" }} />
+                                        <Button type="submit"><i class="fa fa-search"></i></Button>
+                                    </Form.Group>
+                                </Form> */}
           </div>
 
         </body>

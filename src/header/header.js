@@ -21,26 +21,13 @@ class Header extends Component {
                     <div bg="light" class="header">
                         <div class="row">
                             <div class="col-sm-3 center" >
-                                <Navbar.Brand href="#home" className="LinkEle"><img src='./images/LOGO.png' alt="" height="60%" width="60%" ></img></Navbar.Brand>
+                                <Navbar.Brand href="#home" className="LinkEle">Flavor=Market</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                             </div>
                             <div class="col-sm-6 center" >
 
-                                <Form inline>
-                                    <pre>       </pre>
-                                   
-                                    <Form.Group controlId="exampleForm.ControlInput1">
-                                    <Form.Control as="select" id="selectionbar">
-                                        <option>SPICE</option>
-                                        <option>HARBS</option>
-                                        <option>GRAINS</option>
-                                        <option>OTHERS</option>
-                                    </Form.Control>
-                                        <FormControl type="text" id="searchbox" placeholder="Search" style={{ width: "300px" }} />
-                                        <Button type="submit"><i class="fa fa-search"></i></Button>
-                                    </Form.Group>
-                                </Form>
+                                
                             </div>
                             <div class="col-sm-3 center">
                                 <div class="statusbar">

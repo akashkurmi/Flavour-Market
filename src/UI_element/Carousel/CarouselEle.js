@@ -15,8 +15,8 @@ class CarouselEle extends Component {
       alt="First slide"
     />
     <Carousel.Caption >
-      <h1 className="caption">First slide label</h1>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h1 className="caption">Welcome To Flavor Market</h1>
+      <p>One Taste that you need to taste.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -27,8 +27,8 @@ class CarouselEle extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -39,8 +39,8 @@ class CarouselEle extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      {/* <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
