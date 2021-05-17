@@ -25,10 +25,10 @@
       "Avalibilty": "IN STOCK",
       "Expirey": "SEPT-2020",
       "MFD": "March 2020",
-      "Product": "CLOVES",
+      "Product": "CLOVES POWDER",
       "Type": "SPICES",
       "Discount": "76%",
-      "source": "coriander-powder-1535611789-4245574.jpg"
+      "source": "http://s.alicdn.com/@sc01/kf/H166413f64d6c403eb1a181038bd57121L.jpg_300x300.jpg"
     },
     {
       "id": 3,
@@ -43,7 +43,7 @@
       "Product": "CORIANDER",
       "Type": "SPICES",
       "Discount": "12%",
-      "source": ""
+      "source": "https://4.imimg.com/data4/OM/MS/MY-11745330/coriander-dhaniya-500x500.png"
     },
     {
       "id": 4,
@@ -58,7 +58,7 @@
       "Product": "MUSTARD",
       "Type": "SPICES",
       "Discount": "18%",
-      "source":""
+      "source":"https://cdn.shopify.com/s/files/1/0062/4214/0227/products/SP_29-02_2048x.jpg?v=1540659105"
     },
     {
       "id": 5,
@@ -88,7 +88,7 @@
       "Product": "DRY-GINGER",
       "Type": "SPICES",
       "Discount": "5",
-      "source":""
+      "source":"https://5.imimg.com/data5/WB/ML/OB/SELLER-84813594/dry-ginger-500x500.jpeg"
     },
     {
       "id": 7,
@@ -103,7 +103,7 @@
       "Product": "FERNUGREEK",
       "Type": "SPICES",
       "Discount": "20%",
-      "source":""
+      "source":"https://www.thespruceeats.com/thmb/RUadc_q14OL4pVLdUjjEbwY4VcY=/1500x1500/smart/filters:no_upscale()/fenugreekseedsVeenaNair-07c658525a504d339c09b42b8366c9ac.jpg"
     },
     {
       "id": 8,
@@ -118,7 +118,7 @@
       "Product": "TURMERIC",
       "Type": "SPICES",
       "Discount": "12%",
-      "source":""
+      "source":"https://blog-images.pharmeasy.in/2019/08/30202434/Turmeric.jpg"
     },
     {
       "id": 9,
@@ -148,7 +148,7 @@
       "Product": "WHITE-PEPPER",
       "Type": "SPICES",
       "Discount": "0",
-      "source":""
+      "source":"https://5.imimg.com/data5/XK/IN/RG/SELLER-89657601/whole-white-pepper-500x500.jpg"
     },
     {
       "id": 11,
@@ -178,7 +178,7 @@
       "Product": "FENNEL SEEDS",
       "Type": "SPICES",
       "Discount": "56",
-      "source":""
+      "source":"https://basketpay.in/wp-content/uploads/2019/08/s-l400.jpg"
     },
     {
       "id": 13,
@@ -208,7 +208,7 @@
       "Product": "BAY LEAFS",
       "Type": "SPICES",
       "Discount": "18",
-      "source":""
+      "source":"https://images-na.ssl-images-amazon.com/images/I/71cQEUBCwqL._AC_SX522_.jpg"
     },
     {
       "id": 15,
@@ -238,7 +238,7 @@
       "Product": "KASURI METHI",
       "Type": "SPICES",
       "Discount": "5",
-      "source":""
+      "source":"https://5.imimg.com/data5/TQ/BT/IT/SELLER-52494355/kasuri-methi-500x500.jpg"
     },
     {
       "id": 17,
@@ -268,7 +268,7 @@
       "Product": "CHILLY POWDER",
       "Type": "HERBS",
       "Discount": "12",
-      "source":""
+      "source":"https://5.imimg.com/data5/KI/WO/MY-10834263/kashmiri-mirch-powder-500x500.jpg"
     }
     
   ],

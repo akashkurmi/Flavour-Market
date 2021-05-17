@@ -14,3 +14,14 @@
     font-family: cursive;
   
 }
+.btn-primary {
+    color: #fff;
+    background-color: #293848;
+    border-color: #adc1d6;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    background: beige;
+}

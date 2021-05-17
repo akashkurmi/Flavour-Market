@@ -6,9 +6,14 @@ import { connect } from 'react-redux';
 class NavigationBar extends Component {
   state = {
     UserName: null,
-    PassWord: null
+    PassWord: null,
+    srch:false
   }
-
+  searchBar=()=>{
+    this.setState({
+      srch:!this.state.srch
+    })
+  }
   render() {
     console.log(this.props.cart + "-------------")
     return (
@@ -26,7 +31,7 @@ class NavigationBar extends Component {
               <Nav.Link ><Link className="LinkEle" to="/">Shop</Link></Nav.Link>
               <Nav.Link ><Link className="LinkEle" to="/Recipes">Recipes</Link></Nav.Link>
               <Nav.Link ><Link className="LinkEle" to="/Blog">Blog</Link></Nav.Link>
-              <Nav.Link ><Link className="LinkEle" to="/">WholeSale</Link></Nav.Link>
+              <Nav.Link ><Link className="LinkEle" onClick={this.searchBar}>Search</Link></Nav.Link>
 
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -35,21 +40,15 @@ class NavigationBar extends Component {
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-            {/* <Form inline>
+            {this.state.srch&&<Form inline>
                                     <pre>       </pre>
                                    
                                     <Form.Group controlId="exampleForm.ControlInput1">
-                                    <Form.Control as="select" id="selectionbar">
-                                        <option>SPICE</option>
-                                        <option>HARBS</option>
-                                        <option>GRAINS</option>
-                                        <option>OTHERS</option>
-                                    </Form.Control>
                                         <FormControl type="text" id="searchbox" placeholder="Search" style={{ width: "300px" }} />
                                         <Button type="submit"><i class="fa fa-search"></i></Button>
                                     </Form.Group>
-                                </Form> */}
+                                </Form>}
+            </Nav>
           </div>
 
         </body>
