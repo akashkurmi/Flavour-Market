@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ItemDiv from './ItemDiv';
-import {Row} from 'react-bootstrap';
+import {Row,Pagination} from 'react-bootstrap';
 class Items extends Component {
     state={
         posts:[],
+        // post:[],
         filterPost:[]
     }
     componentDidMount(){
@@ -35,7 +36,8 @@ class Items extends Component {
     // }
     render() {
         // console.log(this.props.match.params.id);
-      
+        let post;
+        post=this.state.posts.slice(0,18);
         return (
             <div>
                 <br></br>
@@ -51,8 +53,28 @@ class Items extends Component {
                     )
                 })} */}
                 <Row>
-                <ItemDiv itemsdetail={this.props.match.params.id ? this.state.posts.filter((post)=>{return post[this.props.match.params.Sid]===this.props.match.params.id}):this.state.posts}></ItemDiv>
+                <ItemDiv itemsdetail={this.props.match.params.id ?
+                     post.filter((post)=>
+                     {return post[this.props.match.params.Sid]===this.props.match.params.id}):
+                     post}></ItemDiv>
                 </Row>
+                <Pagination>
+  <Pagination.First />
+  <Pagination.Prev />
+  <Pagination.Item active>{1}</Pagination.Item>
+  {/* <Pagination.Ellipsis /> */}
+
+  <Pagination.Item>{2}</Pagination.Item>
+  <Pagination.Item>{3}</Pagination.Item>
+  <Pagination.Item >{4}</Pagination.Item>
+  {/* <Pagination.Item>{13}</Pagination.Item>
+  <Pagination.Item disabled>{14}</Pagination.Item>
+
+  <Pagination.Ellipsis />
+  <Pagination.Item>{20}</Pagination.Item> */}
+  <Pagination.Next />
+  <Pagination.Last />
+</Pagination>
             </div>
 
         )
